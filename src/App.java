@@ -50,18 +50,31 @@ public class App {
         //ya tenemos ambas jugadas, faltan todas las posibilidades (en la libreta están)     
         if (jugada1 == 2f && jugada2 == 1f){
             System.out.print("Jugador_1: Papel vs Jugador_2: Piedra\n");
-            System.out.print(" Ganador Jugador_1");
+            System.out.print("Ganador Jugador_1");
         }else if(jugada1 == 1f && jugada2 ==2f) {
             System.out.print("Jugador_1: Piedra vs Jugador_2: Papel\n");
-            System.out.print(" Ganador Jugador_2");
+            System.out.print("Ganador Jugador_2");
         }else if (jugada1 == 2f && jugada2 == 3f){
             System.out.print("Jugador_1: Papel vs Jugador_2: Tijeras\n");
-            System.out.print(" Ganador Jugador_2");
+            System.out.print("Ganador Jugador_2");
         }else if (jugada1 == 3f && jugada2 == 2f){
             System.out.print("Jugador_1: Tijeras vs Jugador_2: Papel\n");
-            System.out.print(" Ganador Jugador_1");
-        }else if (jugada1 == 2f && jugada 2== 2f){
-            
-        }                                                                                                                                                                                                                                                                                                                                                                     
+            System.out.print("Ganador Jugador_1");
+        }else if (jugada1 == 2f && jugada2== 2f){
+            System.out.print("Jugador_1: Papel vs Jugador_2: Papel\n");
+            System.out.print("Empate");            
+        }else if (jugada1 == 1f && jugada2 == 3f){
+            System.out.print("Jugador_1: Piedra vs Jugador_2: Tijeras\n");
+            System.out.print("Ganador Jugador_2");
+        }else if (jugada1 == 3f && jugada2 == 2f){
+            System.out.print("Jugador_1: Tijeras vs Jugador_2: Piedra\n");
+            System.out.print("Ganador Jugador_2");
+        }else if (jugada1 == 1f &&  jugada2 == 1f) {
+            System.out.print("Jugador_1: Piedra vs Jugador_2: Piedra\n");
+            System.out.print("Empate");
+        }else if (jugada1 == 3f && jugada2 == 3f){
+            System.out.print("Jugador_1: Tijeras vs Jugador_2: Tijeras\n");
+            System.out.print("Empate");
+        }                                                                                                                                                                                                                                                                          
     }
 }
